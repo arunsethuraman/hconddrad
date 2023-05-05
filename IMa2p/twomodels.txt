@@ -1,0 +1,5 @@
+2
+model no East to West
+constant m 0 0.0
+model no Chile to West
+constant m 5 0.0

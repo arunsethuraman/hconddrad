@@ -1,0 +1,549 @@
+IMa2p version 1.0 - Parallel Isolation with Migration Analysis  -  Jody Hey, Rasmus Nielsen, Sang Chul Choi, Vitor Sousa, Janeen Pisciotta, Arun Sethuraman 2015 
+Release date: January, 2015
+
+
+INPUT AND STARTING INFORMATION 
+================================
+
+Command line string :  -i ../DatafromSchyler/allloci_tree2.u -o trial18_long_lmode.out -l1000 -r0 -v trial18_long_lowq.out -q2.0 -t0.2 -m55 -s1234 -c2 -w threemodels.rtf 
+  Input filename : ../DatafromSchyler/allloci_tree2.u 
+  Output filename: trial18_long_lmode.out 
+  Random number seed : 0 
+  Heating terms on command line :  
+  Calculation options on command line :  -c2 
+  Model options on command line :  
+  Output options on command line :  
+All genealogy information used for surface estimation printed to file: trial18_long_lmode.out.ti
+
+Text from input file: 165 loci containing data for all 73 individuals (146 haplotypes) from Schyler
+Text from input file: Please see Arun's notes on how this data set was created
+
+Number of sampled populations given in input file: 3 
+- Population Names - 
+Population 0 : EA 
+Population 1 : WE 
+Population 2 : CH 
+
+Population Tree : ((1,2):3,0):4
+
+Locus Information
+-----------------
+
+Number of loci: 165 
+Locus#	Locusname	Pop0#	Pop1#	Pop2#	Model	InheritanceScalar	MutationRatesPerYear
+0	Locus10117	 66	 68	 12	IS	1.000
+1	Locus10186	 66	 68	 12	IS	1.000
+2	Locus10215	 66	 68	 12	IS	1.000
+3	Locus10563	 66	 68	 12	IS	1.000
+4	Locus10983	 66	 68	 12	IS	1.000
+5	Locus11088	 66	 68	 12	IS	1.000
+6	Locus11199	 66	 68	 12	IS	1.000
+7	Locus11333	 66	 68	 12	IS	1.000
+8	Locus11336	 66	 68	 12	IS	1.000
+9	Locus11455	 66	 68	 12	IS	1.000
+10	Locus11592	 66	 68	 12	IS	1.000
+11	Locus11632	 66	 68	 12	IS	1.000
+12	Locus11678	 66	 68	 12	IS	1.000
+13	Locus11716	 66	 68	 12	IS	1.000
+14	Locus12017	 66	 68	 12	IS	1.000
+15	Locus12436	 66	 68	 12	IS	1.000
+16	Locus12794	 66	 68	 12	IS	1.000
+17	Locus13040	 66	 68	 12	IS	1.000
+18	Locus13091	 66	 68	 12	IS	1.000
+19	Locus13234	 66	 68	 12	IS	1.000
+20	Locus13632	 66	 68	 12	IS	1.000
+21	Locus13740	 66	 68	 12	IS	1.000
+22	Locus13871	 66	 68	 12	IS	1.000
+23	Locus13881	 66	 68	 12	IS	1.000
+24	Locus13908	 66	 68	 12	IS	1.000
+25	Locus14179	 66	 68	 12	IS	1.000
+26	Locus14568	 66	 68	 12	IS	1.000
+27	Locus14576	 66	 68	 12	IS	1.000
+28	Locus14720	 66	 68	 12	IS	1.000
+29	Locus14763	 66	 68	 12	IS	1.000
+30	Locus14797	 66	 68	 12	IS	1.000
+31	Locus15113	 66	 68	 12	IS	1.000
+32	Locus15159	 66	 68	 12	IS	1.000
+33	Locus1516	 66	 68	 12	IS	1.000
+34	Locus15195	 66	 68	 12	IS	1.000
+35	Locus15418	 66	 68	 12	IS	1.000
+36	Locus15902	 66	 68	 12	IS	1.000
+37	Locus15986	 66	 68	 12	IS	1.000
+38	Locus16114	 66	 68	 12	IS	1.000
+39	Locus16127	 66	 68	 12	IS	1.000
+40	Locus16222	 66	 68	 12	IS	1.000
+41	Locus16241	 66	 68	 12	IS	1.000
+42	Locus16709	 66	 68	 12	IS	1.000
+43	Locus1697	 66	 68	 12	IS	1.000
+44	Locus17034	 66	 68	 12	IS	1.000
+45	Locus17076	 66	 68	 12	IS	1.000
+46	Locus17201	 66	 68	 12	IS	1.000
+47	Locus17445	 66	 68	 12	IS	1.000
+48	Locus17602	 66	 68	 12	IS	1.000
+49	Locus17760	 66	 68	 12	IS	1.000
+50	Locus17904	 66	 68	 12	IS	1.000
+51	Locus18209	 66	 68	 12	IS	1.000
+52	Locus18560	 66	 68	 12	IS	1.000
+53	Locus18801	 66	 68	 12	IS	1.000
+54	Locus18995	 66	 68	 12	IS	1.000
+55	Locus19110	 66	 68	 12	IS	1.000
+56	Locus19204	 66	 68	 12	IS	1.000
+57	Locus19634	 66	 68	 12	IS	1.000
+58	Locus19648	 66	 68	 12	IS	1.000
+59	Locus20056	 66	 68	 12	IS	1.000
+60	Locus20153	 66	 68	 12	IS	1.000
+61	Locus20223	 66	 68	 12	IS	1.000
+62	Locus20458	 66	 68	 12	IS	1.000
+63	Locus20533	 66	 68	 12	IS	1.000
+64	Locus20580	 66	 68	 12	IS	1.000
+65	Locus20620	 66	 68	 12	IS	1.000
+66	Locus20644	 66	 68	 12	IS	1.000
+67	Locus20718	 66	 68	 12	IS	1.000
+68	Locus21002	 66	 68	 12	IS	1.000
+69	Locus21125	 66	 68	 12	IS	1.000
+70	Locus21200	 66	 68	 12	IS	1.000
+71	Locus21488	 66	 68	 12	IS	1.000
+72	Locus21542	 66	 68	 12	IS	1.000
+73	Locus21625	 66	 68	 12	IS	1.000
+74	Locus21629	 66	 68	 12	IS	1.000
+75	Locus21738	 66	 68	 12	IS	1.000
+76	Locus21742	 66	 68	 12	IS	1.000
+77	Locus21745	 66	 68	 12	IS	1.000
+78	Locus21956	 66	 68	 12	IS	1.000
+79	Locus22032	 66	 68	 12	IS	1.000
+80	Locus22241	 66	 68	 12	IS	1.000
+81	Locus22275	 66	 68	 12	IS	1.000
+82	Locus22361	 66	 68	 12	IS	1.000
+83	Locus22427	 66	 68	 12	IS	1.000
+84	Locus22705	 66	 68	 12	IS	1.000
+85	Locus22715	 66	 68	 12	IS	1.000
+86	Locus22814	 66	 68	 12	IS	1.000
+87	Locus22935	 66	 68	 12	IS	1.000
+88	Locus23491	 66	 68	 12	IS	1.000
+89	Locus23701	 66	 68	 12	IS	1.000
+90	Locus23923	 66	 68	 12	IS	1.000
+91	Locus24069	 66	 68	 12	IS	1.000
+92	Locus24325	 66	 68	 12	IS	1.000
+93	Locus24598	 66	 68	 12	IS	1.000
+94	Locus24605	 66	 68	 12	IS	1.000
+95	Locus2463	 66	 68	 12	IS	1.000
+96	Locus24825	 66	 68	 12	IS	1.000
+97	Locus24964	 66	 68	 12	IS	1.000
+98	Locus2497	 66	 68	 12	IS	1.000
+99	Locus25177	 66	 68	 12	IS	1.000
+100	Locus25382	 66	 68	 12	IS	1.000
+101	Locus25701	 66	 68	 12	IS	1.000
+102	Locus2574	 66	 68	 12	IS	1.000
+103	Locus2575	 66	 68	 12	IS	1.000
+104	Locus25801	 66	 68	 12	IS	1.000
+105	Locus26246	 66	 68	 12	IS	1.000
+106	Locus2633	 66	 68	 12	IS	1.000
+107	Locus26357	 66	 68	 12	IS	1.000
+108	Locus2639	 66	 68	 12	IS	1.000
+109	Locus26644	 66	 68	 12	IS	1.000
+110	Locus26786	 66	 68	 12	IS	1.000
+111	Locus26903	 66	 68	 12	IS	1.000
+112	Locus2742	 66	 68	 12	IS	1.000
+113	Locus27467	 66	 68	 12	IS	1.000
+114	Locus27563	 66	 68	 12	IS	1.000
+115	Locus27619	 66	 68	 12	IS	1.000
+116	Locus2764	 66	 68	 12	IS	1.000
+117	Locus2806	 66	 68	 12	IS	1.000
+118	Locus2835	 66	 68	 12	IS	1.000
+119	Locus2964	 66	 68	 12	IS	1.000
+120	Locus2997	 66	 68	 12	IS	1.000
+121	Locus3095	 66	 68	 12	IS	1.000
+122	Locus3175	 66	 68	 12	IS	1.000
+123	Locus3182	 66	 68	 12	IS	1.000
+124	Locus3239	 66	 68	 12	IS	1.000
+125	Locus3339	 66	 68	 12	IS	1.000
+126	Locus3342	 66	 68	 12	IS	1.000
+127	Locus3575	 66	 68	 12	IS	1.000
+128	Locus3904	 66	 68	 12	IS	1.000
+129	Locus397	 66	 68	 12	IS	1.000
+130	Locus4135	 66	 68	 12	IS	1.000
+131	Locus443	 66	 68	 12	IS	1.000
+132	Locus449	 66	 68	 12	IS	1.000
+133	Locus4583	 66	 68	 12	IS	1.000
+134	Locus4697	 66	 68	 12	IS	1.000
+135	Locus4722	 66	 68	 12	IS	1.000
+136	Locus4788	 66	 68	 12	IS	1.000
+137	Locus4813	 66	 68	 12	IS	1.000
+138	Locus4909	 66	 68	 12	IS	1.000
+139	Locus5031	 66	 68	 12	IS	1.000
+140	Locus5194	 66	 68	 12	IS	1.000
+141	Locus5296	 66	 68	 12	IS	1.000
+142	Locus5698	 66	 68	 12	IS	1.000
+143	Locus5721	 66	 68	 12	IS	1.000
+144	Locus5743	 66	 68	 12	IS	1.000
+145	Locus6021	 66	 68	 12	IS	1.000
+146	Locus6627	 66	 68	 12	IS	1.000
+147	Locus6769	 66	 68	 12	IS	1.000
+148	Locus6822	 66	 68	 12	IS	1.000
+149	Locus6991	 66	 68	 12	IS	1.000
+150	Locus715	 66	 68	 12	IS	1.000
+151	Locus7268	 66	 68	 12	IS	1.000
+152	Locus7520	 66	 68	 12	IS	1.000
+153	Locus7527	 66	 68	 12	IS	1.000
+154	Locus7642	 66	 68	 12	IS	1.000
+155	Locus8520	 66	 68	 12	IS	1.000
+156	Locus8588	 66	 68	 12	IS	1.000
+157	Locus8631	 66	 68	 12	IS	1.000
+158	Locus8633	 66	 68	 12	IS	1.000
+159	Locus8683	 66	 68	 12	IS	1.000
+160	Locus872	 66	 68	 12	IS	1.000
+161	Locus8912	 66	 68	 12	IS	1.000
+162	Locus9158	 66	 68	 12	IS	1.000
+163	Locus938	 66	 68	 12	IS	1.000
+164	Locus9941	 66	 68	 12	IS	1.000
+
+Parameter Counts
+----------------
+   Population sizes : 5
+   Migration rates  : 8
+   Parameters in the MCMC simulation
+      Splitting times : 2
+      Mutation scalars: 165
+      HKY Kappa (ti/tv) ratios: 0
+
+Parameter Priors
+-----------------
+  Population size parameters maximum value : 2.0000 
+  Migration rate parameters maximum value: 55.0000 
+  Splitting time : 0.2000
+
+
+LOAD TREES (L) MODE INFORMATION
+============================================================================
+  Base filename for loading files with sampled genealogies: trial18_long_lowq.out*.ti
+  Files loaded with sampled genealogies:
+  loaded 4545 genealogies from genealogy file  trial18_long_lowq.out.ti
+
+  HEADER INFORMATION FROM FIRST GENEALOGY FILE
+  ---------------------------------------
+  ||-------------------------------------------
+  ||
+  ||Header for genealogy file:  trial18_long_lowq.out.ti
+  ||
+  ||-------------------------------------------
+  ||
+  ||IMa2p version 1.0 - Parallel Isolation with Migration Analysis  -  Jody Hey, Rasmus Nielsen, Sang Chul Choi, Vitor Sousa, Janeen Pisciotta, Arun Sethuraman 2015 
+  ||Release date: January, 2015
+  ||
+  ||
+  ||INPUT AND STARTING INFORMATION 
+  ||================================
+  ||
+  ||Command line string :  -i allloci_tree2.u -o trial18_long_lowq.out -b16.0 -l32.0 -q2.0 -t0.2 -m55 -s1234 -hfg -hn10 -ha0.99 -hb0.30 -z10000 -r235 -f trial18_long_lowq.out 
+  ||  Input filename : allloci_tree2.u 
+  ||  Output filename: trial18_long_lowq.out 
+  ||  Random number seed : 0 
+  ||  Heating terms on command line :  -hfg -hn10 -ha0.99 -hb0.30 
+  ||  Calculation options on command line :  
+  ||  Model options on command line :  
+  ||  Output options on command line :  
+  ||- Run Duration - 
+  ||     Burn period, # seconds: 57600 (total burn duration depends on IMburn file status)
+  ||          -User option for printing trendline during, or at end of burnin period, invoked
+  ||          -initial burn duration prior to beginning recording burntrend : 0 steps
+  ||      Record period, # seconds per interval: 115200 
+  ||      Run period indefinite in length - determined by user using 'IMrun' file
+  ||- Metropolis Coupling -
+  ||     Metropolis Coupling implemented using 150 chains 
+  ||     Geometric Increment Model   term1: 0.990  term2: 0.300
+  ||Initial Markov chain state space loaded from file: trial18_long_lowq.out
+  ||State of Markov chain saved to file : trial18_long_lowq.out.mcf.0
+  ||All genealogy information used for surface estimation printed to file: trial18_long_lowq.out.ti
+  ||
+  ||Text from input file: 165 loci containing data for all 73 individuals (146 haplotypes) from Schyler
+  ||Text from input file: Please see Arun's notes on how this data set was created
+  ||
+  ||Number of sampled populations given in input file: 3 
+  ||- Population Names - 
+  ||Population 0 : EA 
+  ||Population 1 : WE 
+  ||Population 2 : CH 
+  ||
+  ||Population Tree : ((1,2):3,0):4
+  ||
+  ||Locus Information
+  ||-----------------
+  ||
+  ||Number of loci: 165 
+  ||Locus#	Locusname	Pop0#	Pop1#	Pop2#	Model	InheritanceScalar	MutationRatesPerYear
+  ||0	Locus10117	 66	 68	 12	IS	1.000
+  ||1	Locus10186	 66	 68	 12	IS	1.000
+  ||2	Locus10215	 66	 68	 12	IS	1.000
+  ||3	Locus10563	 66	 68	 12	IS	1.000
+  ||4	Locus10983	 66	 68	 12	IS	1.000
+  ||5	Locus11088	 66	 68	 12	IS	1.000
+  ||6	Locus11199	 66	 68	 12	IS	1.000
+  ||7	Locus11333	 66	 68	 12	IS	1.000
+  ||8	Locus11336	 66	 68	 12	IS	1.000
+  ||9	Locus11455	 66	 68	 12	IS	1.000
+  ||10	Locus11592	 66	 68	 12	IS	1.000
+  ||11	Locus11632	 66	 68	 12	IS	1.000
+  ||12	Locus11678	 66	 68	 12	IS	1.000
+  ||13	Locus11716	 66	 68	 12	IS	1.000
+  ||14	Locus12017	 66	 68	 12	IS	1.000
+  ||15	Locus12436	 66	 68	 12	IS	1.000
+  ||16	Locus12794	 66	 68	 12	IS	1.000
+  ||17	Locus13040	 66	 68	 12	IS	1.000
+  ||18	Locus13091	 66	 68	 12	IS	1.000
+  ||19	Locus13234	 66	 68	 12	IS	1.000
+  ||20	Locus13632	 66	 68	 12	IS	1.000
+  ||21	Locus13740	 66	 68	 12	IS	1.000
+  ||22	Locus13871	 66	 68	 12	IS	1.000
+  ||23	Locus13881	 66	 68	 12	IS	1.000
+  ||24	Locus13908	 66	 68	 12	IS	1.000
+  ||25	Locus14179	 66	 68	 12	IS	1.000
+  ||26	Locus14568	 66	 68	 12	IS	1.000
+  ||27	Locus14576	 66	 68	 12	IS	1.000
+  ||28	Locus14720	 66	 68	 12	IS	1.000
+  ||29	Locus14763	 66	 68	 12	IS	1.000
+  ||30	Locus14797	 66	 68	 12	IS	1.000
+  ||31	Locus15113	 66	 68	 12	IS	1.000
+  ||32	Locus15159	 66	 68	 12	IS	1.000
+  ||33	Locus1516	 66	 68	 12	IS	1.000
+  ||34	Locus15195	 66	 68	 12	IS	1.000
+  ||35	Locus15418	 66	 68	 12	IS	1.000
+  ||36	Locus15902	 66	 68	 12	IS	1.000
+  ||37	Locus15986	 66	 68	 12	IS	1.000
+  ||38	Locus16114	 66	 68	 12	IS	1.000
+  ||39	Locus16127	 66	 68	 12	IS	1.000
+  ||40	Locus16222	 66	 68	 12	IS	1.000
+  ||41	Locus16241	 66	 68	 12	IS	1.000
+  ||42	Locus16709	 66	 68	 12	IS	1.000
+  ||43	Locus1697	 66	 68	 12	IS	1.000
+  ||44	Locus17034	 66	 68	 12	IS	1.000
+  ||45	Locus17076	 66	 68	 12	IS	1.000
+  ||46	Locus17201	 66	 68	 12	IS	1.000
+  ||47	Locus17445	 66	 68	 12	IS	1.000
+  ||48	Locus17602	 66	 68	 12	IS	1.000
+  ||49	Locus17760	 66	 68	 12	IS	1.000
+  ||50	Locus17904	 66	 68	 12	IS	1.000
+  ||51	Locus18209	 66	 68	 12	IS	1.000
+  ||52	Locus18560	 66	 68	 12	IS	1.000
+  ||53	Locus18801	 66	 68	 12	IS	1.000
+  ||54	Locus18995	 66	 68	 12	IS	1.000
+  ||55	Locus19110	 66	 68	 12	IS	1.000
+  ||56	Locus19204	 66	 68	 12	IS	1.000
+  ||57	Locus19634	 66	 68	 12	IS	1.000
+  ||58	Locus19648	 66	 68	 12	IS	1.000
+  ||59	Locus20056	 66	 68	 12	IS	1.000
+  ||60	Locus20153	 66	 68	 12	IS	1.000
+  ||61	Locus20223	 66	 68	 12	IS	1.000
+  ||62	Locus20458	 66	 68	 12	IS	1.000
+  ||63	Locus20533	 66	 68	 12	IS	1.000
+  ||64	Locus20580	 66	 68	 12	IS	1.000
+  ||65	Locus20620	 66	 68	 12	IS	1.000
+  ||66	Locus20644	 66	 68	 12	IS	1.000
+  ||67	Locus20718	 66	 68	 12	IS	1.000
+  ||68	Locus21002	 66	 68	 12	IS	1.000
+  ||69	Locus21125	 66	 68	 12	IS	1.000
+  ||70	Locus21200	 66	 68	 12	IS	1.000
+  ||71	Locus21488	 66	 68	 12	IS	1.000
+  ||72	Locus21542	 66	 68	 12	IS	1.000
+  ||73	Locus21625	 66	 68	 12	IS	1.000
+  ||74	Locus21629	 66	 68	 12	IS	1.000
+  ||75	Locus21738	 66	 68	 12	IS	1.000
+  ||76	Locus21742	 66	 68	 12	IS	1.000
+  ||77	Locus21745	 66	 68	 12	IS	1.000
+  ||78	Locus21956	 66	 68	 12	IS	1.000
+  ||79	Locus22032	 66	 68	 12	IS	1.000
+  ||80	Locus22241	 66	 68	 12	IS	1.000
+  ||81	Locus22275	 66	 68	 12	IS	1.000
+  ||82	Locus22361	 66	 68	 12	IS	1.000
+  ||83	Locus22427	 66	 68	 12	IS	1.000
+  ||84	Locus22705	 66	 68	 12	IS	1.000
+  ||85	Locus22715	 66	 68	 12	IS	1.000
+  ||86	Locus22814	 66	 68	 12	IS	1.000
+  ||87	Locus22935	 66	 68	 12	IS	1.000
+  ||88	Locus23491	 66	 68	 12	IS	1.000
+  ||89	Locus23701	 66	 68	 12	IS	1.000
+  ||90	Locus23923	 66	 68	 12	IS	1.000
+  ||91	Locus24069	 66	 68	 12	IS	1.000
+  ||92	Locus24325	 66	 68	 12	IS	1.000
+  ||93	Locus24598	 66	 68	 12	IS	1.000
+  ||94	Locus24605	 66	 68	 12	IS	1.000
+  ||95	Locus2463	 66	 68	 12	IS	1.000
+  ||96	Locus24825	 66	 68	 12	IS	1.000
+  ||97	Locus24964	 66	 68	 12	IS	1.000
+  ||98	Locus2497	 66	 68	 12	IS	1.000
+  ||99	Locus25177	 66	 68	 12	IS	1.000
+  ||100	Locus25382	 66	 68	 12	IS	1.000
+  ||101	Locus25701	 66	 68	 12	IS	1.000
+  ||102	Locus2574	 66	 68	 12	IS	1.000
+  ||103	Locus2575	 66	 68	 12	IS	1.000
+  ||104	Locus25801	 66	 68	 12	IS	1.000
+  ||105	Locus26246	 66	 68	 12	IS	1.000
+  ||106	Locus2633	 66	 68	 12	IS	1.000
+  ||107	Locus26357	 66	 68	 12	IS	1.000
+  ||108	Locus2639	 66	 68	 12	IS	1.000
+  ||109	Locus26644	 66	 68	 12	IS	1.000
+  ||110	Locus26786	 66	 68	 12	IS	1.000
+  ||111	Locus26903	 66	 68	 12	IS	1.000
+  ||112	Locus2742	 66	 68	 12	IS	1.000
+  ||113	Locus27467	 66	 68	 12	IS	1.000
+  ||114	Locus27563	 66	 68	 12	IS	1.000
+  ||115	Locus27619	 66	 68	 12	IS	1.000
+  ||116	Locus2764	 66	 68	 12	IS	1.000
+  ||117	Locus2806	 66	 68	 12	IS	1.000
+  ||118	Locus2835	 66	 68	 12	IS	1.000
+  ||119	Locus2964	 66	 68	 12	IS	1.000
+  ||120	Locus2997	 66	 68	 12	IS	1.000
+  ||121	Locus3095	 66	 68	 12	IS	1.000
+  ||122	Locus3175	 66	 68	 12	IS	1.000
+  ||123	Locus3182	 66	 68	 12	IS	1.000
+  ||124	Locus3239	 66	 68	 12	IS	1.000
+  ||125	Locus3339	 66	 68	 12	IS	1.000
+  ||126	Locus3342	 66	 68	 12	IS	1.000
+  ||127	Locus3575	 66	 68	 12	IS	1.000
+  ||128	Locus3904	 66	 68	 12	IS	1.000
+  ||129	Locus397	 66	 68	 12	IS	1.000
+  ||130	Locus4135	 66	 68	 12	IS	1.000
+  ||131	Locus443	 66	 68	 12	IS	1.000
+  ||132	Locus449	 66	 68	 12	IS	1.000
+  ||133	Locus4583	 66	 68	 12	IS	1.000
+  ||134	Locus4697	 66	 68	 12	IS	1.000
+  ||135	Locus4722	 66	 68	 12	IS	1.000
+  ||136	Locus4788	 66	 68	 12	IS	1.000
+  ||137	Locus4813	 66	 68	 12	IS	1.000
+  ||138	Locus4909	 66	 68	 12	IS	1.000
+  ||139	Locus5031	 66	 68	 12	IS	1.000
+  ||140	Locus5194	 66	 68	 12	IS	1.000
+  ||141	Locus5296	 66	 68	 12	IS	1.000
+  ||142	Locus5698	 66	 68	 12	IS	1.000
+  ||143	Locus5721	 66	 68	 12	IS	1.000
+  ||144	Locus5743	 66	 68	 12	IS	1.000
+  ||145	Locus6021	 66	 68	 12	IS	1.000
+  ||146	Locus6627	 66	 68	 12	IS	1.000
+  ||147	Locus6769	 66	 68	 12	IS	1.000
+  ||148	Locus6822	 66	 68	 12	IS	1.000
+  ||149	Locus6991	 66	 68	 12	IS	1.000
+  ||150	Locus715	 66	 68	 12	IS	1.000
+  ||151	Locus7268	 66	 68	 12	IS	1.000
+  ||152	Locus7520	 66	 68	 12	IS	1.000
+  ||153	Locus7527	 66	 68	 12	IS	1.000
+  ||154	Locus7642	 66	 68	 12	IS	1.000
+  ||155	Locus8520	 66	 68	 12	IS	1.000
+  ||156	Locus8588	 66	 68	 12	IS	1.000
+  ||157	Locus8631	 66	 68	 12	IS	1.000
+  ||158	Locus8633	 66	 68	 12	IS	1.000
+  ||159	Locus8683	 66	 68	 12	IS	1.000
+  ||160	Locus872	 66	 68	 12	IS	1.000
+  ||161	Locus8912	 66	 68	 12	IS	1.000
+  ||162	Locus9158	 66	 68	 12	IS	1.000
+  ||163	Locus938	 66	 68	 12	IS	1.000
+  ||164	Locus9941	 66	 68	 12	IS	1.000
+  ||
+  ||Parameter Counts
+  ||----------------
+  ||   Population sizes : 5
+  ||   Migration rates  : 8
+  ||   Parameters in the MCMC simulation
+  ||      Splitting times : 2
+  ||      Mutation scalars: 165
+  ||      HKY Kappa (ti/tv) ratios: 0
+  ||
+  ||Parameter Priors
+  ||-----------------
+  ||  Population size parameters maximum value : 2.0000 
+  ||  Migration rate parameters maximum value: 55.0000 
+  ||  Splitting time : 0.2000
+  ||
+  ||
+  ||-------------------------------------------
+  ||
+  ||End of header for genealogy file:  trial18_long_lowq.out.ti
+  ||
+  ||-------------------------------------------
+  ||
+  END OF HEADER INFORMATION FROM FIRST GENEALOGY FILE
+  ----------------------------------------------
+
+  Number of files loaded : 1  total number of genealogies used: 1000 out of a total of: 4545 
+
+MEANS, VARIANCES and CORRELATIONS OF PARAMETERS ('$' r > 0.4  '*' r > 0.75)
+=============================================================================
+Param:	q0	q1	q2	q3	q4	m0>1	m1>0	m0>2	m2>0	m1>2	m2>1	m0>3	m3>0
+Mean:	0.288	0.103	0.017	0.012	0.026	38.543	44.399	18.106	47.277	24.303	30.466	32.534	30.597
+Stdv:	0.038	0.018	0.003	0.004	0.003	6.379	6.092	4.643	5.723	5.006	10.162	12.394	17.530
+
+Correlations
+	q0	q1	q2	q3	q4	m0>1	m1>0	m0>2	m2>0	m1>2	m2>1	m0>3	m3>0
+q0	  - 	0.610$	-0.041	0.002	0.402$	-0.462$	-0.627$	-0.082	-0.211	0.145	-0.435$	-0.439$	-0.081
+q1	0.610$	  - 	0.273	-0.220	0.178	-0.535$	-0.501$	-0.503$	0.138	-0.108	-0.002	-0.249	-0.502$
+q2	-0.041	0.273	  - 	-0.166	-0.372	-0.673$	0.120	-0.818*	0.079	-0.691$	0.471$	0.240	-0.610$
+q3	0.002	-0.220	-0.166	  - 	-0.153	0.247	0.168	0.145	-0.047	0.110	0.064	-0.332	-0.141
+q4	0.402$	0.178	-0.372	-0.153	  - 	-0.062	-0.476$	0.413$	-0.311	0.443$	-0.487$	-0.590$	0.328
+m0>1	-0.462$	-0.535$	-0.673$	0.247	-0.062	  - 	0.201	0.599$	0.090	0.468$	-0.067	-0.021	0.398
+m1>0	-0.627$	-0.501$	0.120	0.168	-0.476$	0.201	  - 	-0.057	0.329	-0.206	0.518$	0.492$	-0.146
+m0>2	-0.082	-0.503$	-0.818*	0.145	0.413$	0.599$	-0.057	  - 	-0.303	0.533$	-0.478$	-0.169	0.765*
+m2>0	-0.211	0.138	0.079	-0.047	-0.311	0.090	0.329	-0.303	  - 	-0.170	0.270	0.087	-0.416$
+m1>2	0.145	-0.108	-0.691$	0.110	0.443$	0.468$	-0.206	0.533$	-0.170	  - 	-0.338	-0.312	0.348
+m2>1	-0.435$	-0.002	0.471$	0.064	-0.487$	-0.067	0.518$	-0.478$	0.270	-0.338	  - 	0.364	-0.573$
+m0>3	-0.439$	-0.249	0.240	-0.332	-0.590$	-0.021	0.492$	-0.169	0.087	-0.312	0.364	  - 	0.061
+m3>0	-0.081	-0.502$	-0.610$	-0.141	0.328	0.398	-0.146	0.765*	-0.416$	0.348	-0.573$	0.061	  - 
+
+
+Marginal Peak Locations and Probabilities
+=========================================
+  peak locations are estimated using a peak finding algorithm, which may
+  fail if the curve has multiple peaks. All peaks can also be found, and
+  related analyses conducted, by plotting the histograms
+
+
+Period 0
+--------
+Population Size Parameters
+ Param:	 q0	P	 q1	P	 q2	P
+ Set0	  0.296	 12.814	  0.093	 35.966	  0.020	274.972
+ Set1	  0.268	 14.457	  0.090	 50.097	  0.014	297.162
+ All	  0.251	 12.494	  0.091	 35.796	  0.014	148.136
+ LR95%Lo	  0.220		  0.077		  0.011	
+ LR95%Hi	  0.362		  0.140		  0.023	
+ LastPeriod	2		1		1	
+Migration Rate Parameters
+ Param:	 m0>1	P	 m1>0	P	 m0>2	P	 m2>0	P	 m1>2	P	 m2>1	P
+ Set0	 33.970	  0.090	 48.141	  0.096	 16.198	  0.110	 55.000	  0.156	 21.495	  0.171	 37.534	  0.052
+ Set1	 37.896	  0.073	 47.196	  0.068	 23.290	  0.134	 47.931	  0.059	 27.883	  0.112	 15.301	  0.038
+ All	 37.215	  0.073	 47.876	  0.081	 18.279	  0.077	 55.000	  0.100	 21.490	  0.104	 35.018	  0.040
+ LR95%Lo	 27.232		 30.532		  9.915		 35.604		 16.576		  8.721	
+ LR95%Hi	 52.019		>max		 27.287		>max		 32.844		 49.276	
+ LLRtest bad value	bad value	bad value	bad value	bad value	1017.398***	
+ LastPeriod	0		0		0		0		0		0	
+
+Period 1
+--------
+Population Size Parameters
+ Param:	 q3	P
+ Set0	  0.008	147.025
+ Set1	  0.012	211.308
+ All	  0.012	144.634
+ LR95%Lo	  0.006	
+ LR95%Hi	  0.018	
+ LastPeriod	2	
+Migration Rate Parameters
+ Param:	 m0>3	P	 m3>0	P
+ Set0	 31.717	  0.032	  0.000	  0.125
+ Set1	 39.348	  0.030	 44.099	  0.051
+ All	 38.926	  0.029	  0.000	  0.063
+ LR95%Lo	  7.182		na	
+ LR95%Hi	>max		>max	
+ LLRtest 1296.955***	  0.000ns	
+ LastPeriod	1		1	
+
+Period 2
+--------
+Population Size Parameters
+ Param:	 q4	P
+ Set0	  0.025	343.637
+ Set1	  0.024	139.494
+ All	  0.025	206.507
+ LR95%Lo	  0.021	
+ LR95%Hi	  0.032	
+ LastPeriod	-1	
+ migration rate likelihood ratio test - see Nielsen and Wakeley (2001)
+ migration significance levels :  * p < 0.05;   **  p < 0.01,   *** p < 0.001
+

@@ -1,0 +1,4 @@
+1
+model no both
+constant m 0.0 0
+constant m 0.0 5
